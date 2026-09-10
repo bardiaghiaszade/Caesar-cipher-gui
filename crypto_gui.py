@@ -23,7 +23,9 @@ def transfer_text(*args):
 
 
 root = tk.Tk()
+root["bg"] = "black" 
 root.title("Input Window")
+
 
 encrypt_var = tk.BooleanVar()
 
